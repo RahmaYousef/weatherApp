@@ -1,0 +1,212 @@
+body{
+    background-color:rgb(30, 32, 43) ;
+}
+    .navbar .nav-item .nav-link{
+    border: 2px solid transparent;
+border-radius: 30%;
+color: white;
+padding: 5px 15px;
+    transition: all 1s;
+    
+    }
+    .navbar .navbar-nav .nav-link.active{
+        border: 2px solid rgb(0, 154, 216);
+        padding: 5px 15px;
+        color:rgb(0, 154, 216) ;
+
+        border-radius: 30%;
+        
+          
+    }
+    .navbar .nav-item .nav-link:hover{
+    border-color:rgb(0, 154, 216);
+    color:rgb(0, 154, 216) ;
+
+    }
+    header{
+        background-image: linear-gradient(rgba(0,0,0,0.3)0% 100%) ,url(../imges/banner.png);
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+    
+        
+         
+    }
+    .find-location{
+        padding-top: 50px;
+    
+        position: relative;
+
+    }
+    .find-location input {
+        width: 100%;
+        padding: 10px 50px 20px 20px;
+        background: #1e202b;
+border-radius: 50px;
+        color: white;
+   
+    }
+
+    .find-location button{
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+        padding: 14px 28px;
+        border-color:rgb(0, 154, 216);
+        background-color:rgb(0, 154, 216);
+        
+        border-radius: 50px;
+        color:white
+    }
+header .tables .header span{
+    font-family: "Sansita", system-ui;
+color: rgb(191, 193, 200);
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+header .tables #country{
+    font-family: "Sansita", system-ui;
+color: rgb(191, 193, 200);
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+header .tables h1{
+    font-family: "Sansita", system-ui;
+color: white;
+font-weight: 700;
+font-size: 50px;
+line-height: 135px;
+}
+header .tables h2{
+    font-family: "Sansita", system-ui;
+color: white;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+}
+header .tables h3{
+    font-family: "Sansita", system-ui;
+    color: rgb(191, 193, 200);
+    font-weight: 300;
+font-size: 12px;
+
+}
+header .tables .first,.third{
+background-color:rgb(50, 53, 68) ;
+
+}
+header .tables .header1,.header3{
+background-color:rgb(45, 48, 61) ;
+padding: 10px;
+color: rgb(191, 193, 200);
+
+}
+header .tables .second{
+background-color:rgb(38, 41, 54) ;
+
+}
+header .tables .header2{
+background-color: rgb(34, 37, 49);
+padding: 10px;
+color: rgb(191, 193, 200);
+
+
+}
+header .tables .descc,#secondDesk,#thirdDesc{
+    font-family: "Sansita", system-ui;
+color: rgb(191, 193, 200);
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color:rgb(0, 154, 216) ;
+
+}
+.footer{
+    background-color:rgb(38, 41, 54) ;
+    padding-block: 50px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.email-sub{
+    position: relative;
+
+}
+.email-sub input {
+    width: 100%;
+    padding: 10px 50px 20px 20px;
+    background: #1e202b;
+border-radius: 50px;
+    color: white;
+}
+
+.email-sub button{
+    position: absolute;
+    right: 15px;
+    padding: 8px 20px;
+    bottom:5px;
+    border-color:rgb(0, 154, 216);
+    background-color:rgb(0, 154, 216);
+    border-radius: 50px;
+    
+    color:white
+}
+.footer span{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 32, 43);
+    border-radius: 50%;
+    border: 1px solid rgb(30, 32, 43);
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer .iconss i{
+    width: 30px;
+    height: 30px;
+     color: rgb(0, 154, 216);
+    
+     border-radius: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+.footer span:hover{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 154, 216);
+    border-radius: 50%;
+    border: 1px solid rgb(0, 154, 216);
+    margin-right: 5px
+}
+.footer span:hover i{
+    width: 20px;
+    height: 20px;
+     color: white;
+    
+     border-radius: 50%;  
+}
+
+.footer .text{
+    color: rgb(170, 169, 169);
+    margin-top: 50px;
+}
+.cont{
+    background-color: rgb(30, 32, 43) !important;
+}
+.con{
+    background-color:rgb(38, 41, 54) ;
+}
+button a.c:hover{
+    text-decoration-line: underline !important;
+}
+.form-control:focus{
+    background-color:rgb(38, 41, 54) ;
+
+}
